@@ -1,0 +1,43 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$colores: (
+  blanco: rgb(255, 255, 255),
+  gris: rgb(159, 159, 159),
+  negro: rgb(50, 50, 50)
+);
+
+@mixin navbar-nav-propio {
+  background-color: map-get($colores, blanco);
+  flex: 1;
+  justify-content: space-around;
+}
+
+@mixin mixin-logo-tiendallica{
+  margin: 0 auto;
+  margin-top: $spacer;
+  margin-bottom: $spacer*1.5;
+}
+
+@mixin mixin-pie-contenido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  @include navbar-nav-propio;
+}
+
+main{
+  div{
+    .container-logo-tiendallica{
+      @include mixin-logo-tiendallica;
+    }
+  }
+}
+
+.pie-contenido {
+  @include mixin-pie-contenido;
+}

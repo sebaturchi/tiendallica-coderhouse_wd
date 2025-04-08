@@ -1,0 +1,19 @@
+.navbar-nav {
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+  justify-content: space-around;
+}
+
+main div .container-logo-tiendallica {
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pie-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

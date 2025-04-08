@@ -49,23 +49,7 @@ body{
 }
 
 .copyright{
-    color:rgb(159, 159, 159)
-}
-
-.pieContenido{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.pieIzquierda{
-    width: 250px;
-}
-
-.navbar-nav{
-    background-color: rgb(255, 255, 255);
-    flex: 1;
-    justify-content: space-around;
+    color:rgb(159, 159, 159);
 }
 
 .tiendaPorDentro{
