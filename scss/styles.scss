@@ -55,8 +55,12 @@ body{
 
 main{
   div{
-    .container-logo-tiendallica{
-      @include mixin-logo-tiendallica;
+    div{
+      display: flex;
+      justify-content: center;
+        .container-logo-tiendallica{
+          @include mixin-logo-tiendallica;
+      }
     }
   }
 }
